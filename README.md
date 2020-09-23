@@ -1,16 +1,22 @@
-### Hi there 👋
+I am a High School Senior who loves to program and work on hobby electronics in my free time. I have recently gotten into active stabilization of model rocketry 
+and keep a (somewhat up to date) devlog on my website [rocketry.dusterthefirst.com](https://rocketry.dusterthefirst.com). I am an absolute fanatic for rust, react and typescript.
+ 
+### Current Projects
+-
+-
+-
+-
 
-<!--
-**DusterTheFirst/dusterthefirst** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Notable Previous Projects
+- [WHS Helper App](https://github.com/whsha) was my first big user facing project. An IOS/Android app to help students manage their confusing schefule in my school. This app was a large success at first, but I have learned a lot about app development through the process of making it, and definantly learned that spending almost all of my waking hours on this project had been wearing me down. Since no one in the school was able to or willing to take up the app, whwen I graduatie, it will more or less fade into oblivion.
+- [BicBacBoe](//github.com/TheDustyard/bicbacboe-1.0) was my first full stack web application that was a simple 1v1 tictactoe game. It's server code has long been lost, but it was my first project I was able to share with friends. I even tried to make a second (failed) version that can be found [here](https://github.com/TheDustyard/bicbacboe)
+- [Beepus](https://github.com/TheDustyard/beepus), [WHS Help Bot](https://github.com/TheDustyard/WHS-Help-Bot) and [RobbieBotten](https://github.com/TheDustyard/RobbieBotten) were discord bots that I had made for specific discord servers. Beepus was a great moderation bot, but was never used enough before the server ended up dying. Robbie Botten on the other hand was deployed in a huge community server and got tons of use, but after I had left the server, its use became limited and eventually was taken offline. The WHS Help Bot never really became much, but its goal was to be a role management bot for a school discord server, that like many, died before the bot was done.
+- [LoginWithDiscord](https://github.com/TheDustyard/Login-With-Discord) was maybe and biggest library that I have made. It was designed to be a super simple, one funcion call, login button for discord. It was never reliable enough to truly use but many people picked it up, (many of who had no idea what they were doing, they just saw the words login and discord) and it became a mess to maintain, eventually being released into the dustyard after a failed rewrite of the library.
+- [StoragePlus](https://github.com/TheDustyard/StoragePlus) was a small spigot minecraft plugin that provided backpack like/shulker box like tools. Minecraft eventually added native tools to acheive this better, which lead to me abandoning the project.
+- [Mechan.JS](https://github.com/TheDustyard/mechan.js) was mabye the library that I put the most work into, a command handling library for discord, in typescript. It involved a bunch of new challenges, such as parsing and creating a good, well thought out user facing API. This library was eventually scrapped, as I moved away from typescript for backend services, but still holds a place near and dear in my heart. The part I am most proud of are the documentation website which has detailed documentation written all out by hand ([mechan.js.org](https://mechan.js.org/docs))
+- [GUIShopMinus](https://github.com/whsmc/GUIShopMinus) was going to be a FOSS (Free and Open Source Software) alternitive to the popular GUIShopPlus spigot plugin with a web GUI to configure the shop. The MC server that it was comissioned for eventually fell through, but the shop plugin still had a lot of work to be done, so it was abandoned.
+- [Matts Mashups](https://github.com/lemmiejustyeet) was a comissioned website for a friend who wanted a place to store and share their musical mashups of songs. It came fully to fruition, but the person who it was created for never ended up using it and eventually I took the server offline. It was very useful as practice to learn about databases, for it was the first heavily database centered program I made.
+- [React TypeDoc](https://github.com/reacttypedoc) was a failed attempt to automate the process of making typescript docs and to put them in a cool, sexy, react based SPI. The documentation on typedoc at the time was sparce, so making a tool to understand the typedoc output was a pain, more than it was worth, eventually leaving me to abandon the project.
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Abandoned Projects
+All of my old/abandoned projects can be found under the organization [@TheDustyard](https://github.com/TheDustyard) and also on the website [dustyard.dusterthefirst.com](https://dustyard.dusterthefirst.com/). This orginization is purely to declutter my account from old and abandoned projects, that have not been touched for a while.
