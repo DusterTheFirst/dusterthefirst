@@ -1,4 +1,4 @@
-# DusterTheFirst (Zachary Kohnen)
+## Zachary Kohnen
 I am a High School Senior who loves to program and work on hobby electronics in my free time. I have recently gotten into active stabilization of model rocketry 
 and keep a (somewhat up to date) devlog on my website [rocketry.dusterthefirst.com](https://rocketry.dusterthefirst.com). I am an absolute fanatic for rust, react and typescript.
  
