@@ -5,14 +5,26 @@ and keep a (somewhat up to date) devlog on my website [rocketry.dusterthefirst.c
 ### Current Projects
 <details>
  <summary><b>Expand</b></summary>
- 
-- [annoy](https://github.com/DusterTheFirst/annoy) was a small hobby project to create a little annoying toy that my SO could control remotely and get my attention when I get sucked into a project. It uses an ESP8266 and a whole load of reverse proxying to be accessible on the internet. When put together, it is a little annoying box of fun.
-- [sxfs](https://github.com/DusterTheFirst/sxfs) was maybe the first project I have made, that had a successful 2nd version. This app is a simple file server for screenshot uploads from the ShareX utility. I have since switched to daily driving linux, meaning that I can no longer use ShareX. I know that this basically could have been implemented in nginx configs, but it was a good learning experience for backend rust and typescript projects.
-- [stfu](https://github.com/DusterTheFirst/stfu) being a personal hobby project, it has an unprofessional name, but actually is a little useful project. It is a daemon/client duo that can easily mute a whole discord channel with ease and quickly (after the first cold run due to the slowness of the daemon starting)
-- [SD](https://github.com/DusterTheFirst/sd) is an online D&D like magic card creator, designed for custom campaigns. The tool was never really used in a campaign, but has been very useful for the DM it was created for. It was a great project for working on a full client side app in react, and probably was the reason I chose to use React Native for the WHS Helper App.
-- [teensyduino-rs](https://github.com/DusterTheFirst/teensyduino-rs) is a somewhat ongoing project to create safe rust bindings to the teensyduino library which goes along with [my fork of the platformio teensyduino framework](https://github.com/DusterTheFirst/framework-arduinoteensy-better-ffi) which exposes many more of the functions as a C ABI so that it can be lined into rust.
-- [rocketry](https://rocketry.dusterthefirst.com/) is an ongoing learning project of creating and flying a thrust vector controlled rocket. I try to keep an ongoing devlog but the source code, for now, is all private.
-
+ <ul>
+  <li>
+   <a href="https://github.com/DusterTheFirst/annoy">annoy</a> was a small hobby project to create a little annoying toy that my SO could control remotely and get my attention when I get sucked into a project. It uses an ESP8266 and a whole load of reverse proxying to be accessible on the internet. When put together, it is a little annoying box of fun.
+  </li>
+  <li>
+   <a href="https://github.com/DusterTheFirst/sxfs">sxfs</a> was maybe the first project I have made, that had a successful 2nd version. This app is a simple file server for screenshot uploads from the ShareX utility. I have since switched to daily driving linux, meaning that I can no longer use ShareX. I know that this basically could have been implemented in nginx configs, but it was a good learning experience for backend rust and typescript projects.
+  </li>
+  <li>
+   <a href="https://github.com/DusterTheFirst/stfu">stfu</a> being a personal hobby project, it has an unprofessional name, but actually is a little useful project. It is a daemon/client duo that can easily mute a whole discord channel with ease and quickly (after the first cold run due to the slowness of the daemon starting)
+  </li>
+  <li>
+   <a href="https://github.com/DusterTheFirst/sd">sd</a> is an online D&D like magic card creator, designed for custom campaigns. The tool was never really used in a campaign, but has been very useful for the DM it was created for. It was a great project for working on a full client side app in react, and probably was the reason I chose to use React Native for the WHS Helper App.
+  </li>
+  <li>
+   <a href="https://github.com/DusterTheFirst/teensyduino-rs">teensyduino-rs</a> is a somewhat ongoing project to create safe rust bindings to the teensyduino library which goes along with <a href="https://github.com/DusterTheFirst/framework-arduinoteensy-better-ffi">my fork of the platformio teensyduino framework</a> which exposes many more of the functions as a C ABI so that it can be lined into rust.
+  </li>
+  <li>
+   <a href="https://rocketry.dusterthefirst.com/">rocketry</a> is an ongoing learning project of creating and flying a thrust vector controlled rocket. I try to keep an ongoing devlog but the source code, for now, is all private.
+  </li>
+ </ul>
 </details>
 
 ### Notable Previous Projects
