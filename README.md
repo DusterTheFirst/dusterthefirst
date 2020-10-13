@@ -27,23 +27,48 @@ and keep a (somewhat up to date) devlog on my website [rocketry.dusterthefirst.c
  </ul>
 </details>
 
+
 ### Notable Previous Projects
 <details>
  <summary><b>Expand</b></summary>
- 
-- [WHS Helper App](https://github.com/whsha) was my first big user facing project. An IOS/Android app to help students manage their confusing schedule in my school. This app was a large success at first, but I have learned a lot about app development through the process of making it, and definitely learned that spending almost all of my waking hours on this project had been wearing me down. Since no one in the school was able to or willing to take up the app, when I graduate, it will more or less fade into oblivion.
-- [BicBacBoe](//github.com/TheDustyard/bicbacboe-1.0) was my first full stack web application that was a simple 1v1 tictactoe game. It's server code has long been lost, but it was my first project I was able to share with friends. I even tried to make a second (failed) version that can be found [here](https://github.com/TheDustyard/bicbacboe)
-- [Beepus](https://github.com/TheDustyard/beepus), [WHS Help Bot](https://github.com/TheDustyard/WHS-Help-Bot) and [RobbieBotten](https://github.com/TheDustyard/RobbieBotten) were discord bots that I had made for specific discord servers. Beepus was a great moderation bot, but was never used enough before the server ended up dying. Robbie Botten on the other hand was deployed in a huge community server and got tons of use, but after I had left the server, its use became limited and eventually was taken offline. The WHS Help Bot never really became much, but its goal was to be a role management bot for a school discord server, that like many, died before the bot was done.
-- [LoginWithDiscord](https://github.com/TheDustyard/Login-With-Discord) was maybe and biggest library that I have made. It was designed to be a super simple, one function call, login button for discord. It was never reliable enough to truly use but many people picked it up, (many of who had no idea what they were doing, they just saw the words login and discord) and it became a mess to maintain, eventually being released into the dustyard after a failed rewrite of the library.
-- [StoragePlus](https://github.com/TheDustyard/StoragePlus) was a small spigot minecraft plugin that provided backpack like/shulker box like tools. Minecraft eventually added native tools to achieve this better, which lead to me abandoning the project.
-- [Mechan.JS](https://github.com/TheDustyard/mechan.js) was maybe the library that I put the most work into, a command handling library for discord, in typescript. It involved a bunch of new challenges, such as parsing and creating a good, well thought out user facing API. This library was eventually scrapped, as I moved away from typescript for backend services, but still holds a place near and dear in my heart. The part I am most proud of are the documentation website which has detailed documentation written all out by hand ([mechan.js.org](https://mechan.js.org/docs))
-- [GUIShopMinus](https://github.com/whsmc/GUIShopMinus) was going to be a FOSS (Free and Open Source Software) alternative to the popular GUIShopPlus spigot plugin with a web GUI to configure the shop. The MC server that it was commissioned for eventually fell through, but the shop plugin still had a lot of work to be done, so it was abandoned.
-- [Matts Mashups](https://github.com/lemmiejustyeet) was a commissioned website for a friend who wanted a place to store and share their musical mashups of songs. It came fully to fruition, but the person who it was created for never ended up using it and eventually I took the server offline. It was very useful as practice to learn about databases, for it was the first heavily database centered program I made.
-- [React TypeDoc](https://github.com/reacttypedoc) was a failed attempt to automate the process of making typescript docs and to put them in a cool, sexy, react based SPI. The documentation on typedoc at the time was sparse, so making a tool to understand the typedoc output was a pain, more than it was worth, eventually leaving me to abandon the project.
-- [BYOB](https://github.com/TheDustyard/BYOB) or Build Your Own Bot, was an idea to create a modular discord bot which could serve almost all purposes. People would be able to develop their modules for the bot and users of the bot could enable and disable the modules according to their use case. The modules were meant to be super simple, either in LUA or some other custom programming language so that anyone could just pick it up and make a plugin for their server. This ended up not making sense in the long run, due to the complexities.
-- [MGMT](https://github.com/DusterTheFirst/MGMT) was an idea to create a custom server management panel, tightly integrated into minecraft so that you could more closely control you minecraft servers, and waste less clock cycles on the webpanel, by writing it in rust, over the more common Java.
-- [MCProxy](https://github.com/DusterTheFirst/mcproxy) was an extension of MGMT that actually came to fruition. It was a reverse proxy for minecraft servers, allowing multiple discord servers to run over the same port. This, if integrated into MGMT would remove the need to port forward every single mc server, and instead just create A/CNAME records to point to the same server, which will then get filtered by their connecting record.
-
+ <ul>
+    <li>
+        <a href="https://github.com/whsha">WHS Helper App</a> was my first big user facing project. An IOS/Android app to help students manage their confusing schedule in my school. This app was a large success at first, but I have learned a lot about app development through the process of making it, and definitely learned that spending almost all of my waking hours on this project had been wearing me down. Since no one in the school was able to or willing to take up the app, when I graduate, it will more or less fade into oblivion.
+    </li>
+    <li>
+        <a href="https://github.com/TheDustyard/bicbacboe-1.0">BicBacBoe</a> was my first full stack web application that was a simple 1v1 tictactoe game. It's server code has long been lost, but it was my first project I was able to share with friends. I even tried to make a second (failed) version that can be found <a href="https://github.com/TheDustyard/bicbacboe">here</a>
+    </li>
+    <li>
+        <a href="https://github.com/TheDustyard/beepus">Beepus</a>, <a href="https://github.com/TheDustyard/WHS-Help-Bot">WHS Help Bot</a>, and <a href="https://github.com/TheDustyard/RobbieBotten">RobbieBotten</a>  were discord bots that I had made for specific discord servers. Beepus was a great moderation bot, but was never used enough before the server ended up dying. Robbie Botten on the other hand was deployed in a huge community server and got tons of use, but after I had left the server, its use became limited and eventually was taken offline. The WHS Help Bot never really became much, but its goal was to be a role management bot for a school discord server, that like many, died before the bot was done.
+    </li>
+    <li>
+        <a href="https://github.com/TheDustyard/Login-With-Discord">LoginWithDiscord</a> was maybe and biggest library that I have made. It was designed to be a super simple, one function call, login button for discord. It was never reliable enough to truly use but many people picked it up, (many of who had no idea what they were doing, they just saw the words login and discord) and it became a mess to maintain, eventually being released into the dustyard after a failed rewrite of the library.
+    </li>
+    <li>
+        <a href="https://github.com/TheDustyard/StoragePlus">StoragePlus</a> was a small spigot minecraft plugin that provided backpack like/shulker box like tools. Minecraft eventually added native tools to achieve this better, which lead to me abandoning the project.
+    </li>
+    <li>
+        <a href="https://github.com/TheDustyard/mechan.js">Mechan.js</a> was maybe the library that I put the most work into, a command handling library for discord, in typescript. It involved a bunch of new challenges, such as parsing and creating a good, well thought out user facing API. This library was eventually scrapped, as I moved away from typescript for backend services, but still holds a place near and dear in my heart. The part I am most proud of are the documentation website which has detailed documentation written all out by hand (<a href="https://mechan.js.org/docs">mechan.js.org</a>)
+    </li>
+    <li>
+        <a href="https://github.com/whsmc/GUIShopMinus">GUIShopMinus</a> was going to be a FOSS (Free and Open Source Software) alternative to the popular GUIShopPlus spigot plugin with a web GUI to configure the shop. The MC server that it was commissioned for eventually fell through, but the shop plugin still had a lot of work to be done, so it was abandoned.
+    </li>
+    <li>
+        <a href="https://github.com/lemmiejustyeet">Matts Mashups</a> was a commissioned website for a friend who wanted a place to store and share their musical mashups of songs. It came fully to fruition, but the person who it was created for never ended up using it and eventually I took the server offline. It was very useful as practice to learn about databases, for it was the first heavily database centered program I made.
+    </li>
+    <li>
+        <a href="https://github.com/reacttypedoc">React TypeDoc</a> was a failed attempt to automate the process of making typescript docs and to put them in a cool, sexy, react based SPI. The documentation on typedoc at the time was sparse, so making a tool to understand the typedoc output was a pain, more than it was worth, eventually leaving me to abandon the project.
+    </li>
+    <li>
+        <a href="https://github.com/TheDustyard/BYOB">BYOB</a> or Build Your Own Bot, was an idea to create a modular discord bot which could serve almost all purposes. People would be able to develop their modules for the bot and users of the bot could enable and disable the modules according to their use case. The modules were meant to be super simple, either in LUA or some other custom programming language so that anyone could just pick it up and make a plugin for their server. This ended up not making sense in the long run, due to the complexities.
+    </li>
+    <li>
+        <a href="https://github.com/DusterTheFirst/MGMT">MGMT</a> was an idea to create a custom server management panel, tightly integrated into minecraft so that you could more closely control you minecraft servers, and waste less clock cycles on the webpanel, by writing it in rust, over the more common Java.
+    </li>
+    <li>
+        <a href="https://github.com/DusterTheFirst/mcproxy">MCProxy</a> was an extension of MGMT that actually came to fruition. It was a reverse proxy for minecraft servers, allowing multiple discord servers to run over the same port. This, if integrated into MGMT would remove the need to port forward every single mc server, and instead just create A/CNAME records to point to the same server, which will then get filtered by their connecting record.
+    </li>
+ </ul>
 </details>
 
 ### Abandoned Projects
