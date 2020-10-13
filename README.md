@@ -3,6 +3,9 @@ I am a High School Senior who loves to program and work on hobby electronics in 
 and keep a (somewhat up to date) devlog on my website [rocketry.dusterthefirst.com](https://rocketry.dusterthefirst.com). I am an absolute fanatic for rust, react and typescript.
  
 ### Current Projects
+<details>
+ <summary><b>Expand</b></summary>
+ 
 - [annoy](https://github.com/DusterTheFirst/annoy) was a small hobby project to create a little annoying toy that my SO could control remotely and get my attention when I get sucked into a project. It uses an ESP8266 and a whole load of reverse proxying to be accessible on the internet. When put together, it is a little annoying box of fun.
 - [sxfs](https://github.com/DusterTheFirst/sxfs) was maybe the first project I have made, that had a successful 2nd version. This app is a simple file server for screenshot uploads from the ShareX utility. I have since switched to daily driving linux, meaning that I can no longer use ShareX. I know that this basically could have been implemented in nginx configs, but it was a good learning experience for backend rust and typescript projects.
 - [stfu](https://github.com/DusterTheFirst/stfu) being a personal hobby project, it has an unprofessional name, but actually is a little useful project. It is a daemon/client duo that can easily mute a whole discord channel with ease and quickly (after the first cold run due to the slowness of the daemon starting)
@@ -10,7 +13,12 @@ and keep a (somewhat up to date) devlog on my website [rocketry.dusterthefirst.c
 - [teensyduino-rs](https://github.com/DusterTheFirst/teensyduino-rs) is a somewhat ongoing project to create safe rust bindings to the teensyduino library which goes along with [my fork of the platformio teensyduino framework](https://github.com/DusterTheFirst/framework-arduinoteensy-better-ffi) which exposes many more of the functions as a C ABI so that it can be lined into rust.
 - [rocketry](https://rocketry.dusterthefirst.com/) is an ongoing learning project of creating and flying a thrust vector controlled rocket. I try to keep an ongoing devlog but the source code, for now, is all private.
 
+</details>
+
 ### Notable Previous Projects
+<details>
+ <summary><b>Expand</b></summary>
+ 
 - [WHS Helper App](https://github.com/whsha) was my first big user facing project. An IOS/Android app to help students manage their confusing schedule in my school. This app was a large success at first, but I have learned a lot about app development through the process of making it, and definitely learned that spending almost all of my waking hours on this project had been wearing me down. Since no one in the school was able to or willing to take up the app, when I graduate, it will more or less fade into oblivion.
 - [BicBacBoe](//github.com/TheDustyard/bicbacboe-1.0) was my first full stack web application that was a simple 1v1 tictactoe game. It's server code has long been lost, but it was my first project I was able to share with friends. I even tried to make a second (failed) version that can be found [here](https://github.com/TheDustyard/bicbacboe)
 - [Beepus](https://github.com/TheDustyard/beepus), [WHS Help Bot](https://github.com/TheDustyard/WHS-Help-Bot) and [RobbieBotten](https://github.com/TheDustyard/RobbieBotten) were discord bots that I had made for specific discord servers. Beepus was a great moderation bot, but was never used enough before the server ended up dying. Robbie Botten on the other hand was deployed in a huge community server and got tons of use, but after I had left the server, its use became limited and eventually was taken offline. The WHS Help Bot never really became much, but its goal was to be a role management bot for a school discord server, that like many, died before the bot was done.
@@ -23,6 +31,8 @@ and keep a (somewhat up to date) devlog on my website [rocketry.dusterthefirst.c
 - [BYOB](https://github.com/TheDustyard/BYOB) or Build Your Own Bot, was an idea to create a modular discord bot which could serve almost all purposes. People would be able to develop their modules for the bot and users of the bot could enable and disable the modules according to their use case. The modules were meant to be super simple, either in LUA or some other custom programming language so that anyone could just pick it up and make a plugin for their server. This ended up not making sense in the long run, due to the complexities.
 - [MGMT](https://github.com/DusterTheFirst/MGMT) was an idea to create a custom server management panel, tightly integrated into minecraft so that you could more closely control you minecraft servers, and waste less clock cycles on the webpanel, by writing it in rust, over the more common Java.
 - [MCProxy](https://github.com/DusterTheFirst/mcproxy) was an extension of MGMT that actually came to fruition. It was a reverse proxy for minecraft servers, allowing multiple discord servers to run over the same port. This, if integrated into MGMT would remove the need to port forward every single mc server, and instead just create A/CNAME records to point to the same server, which will then get filtered by their connecting record.
+
+</details>
 
 ### Abandoned Projects
 All of my old/abandoned projects can be found under the organization [@TheDustyard](https://github.com/TheDustyard) and also on the website [dustyard.dusterthefirst.com](https://dustyard.dusterthefirst.com/). This organization is purely to unclutter my account from old and abandoned projects, that have not been touched for a while.
