@@ -1,0 +1,23 @@
+{
+    "markdownlint.config": {
+        // Allow inline HTML for details dropdown
+        "no-inline-html": false,
+        // Enable line length lint
+        "line-length": true
+    },
+    "cSpell.words": [
+        "Beepus",
+        "Botten",
+        "CNAME",
+        "Dustyard",
+        "FOSS",
+        "MGMT",
+        "mechan",
+        "minecraft",
+        "platformio",
+        "shulker",
+        "sxfs",
+        "typedoc",
+        "webpanel"
+    ]
+}
