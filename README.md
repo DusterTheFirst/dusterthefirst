@@ -1,13 +1,8 @@
 # Zachary Kohnen
 
-<details open>
-  <summary><b>Contact</b></summary>
-
 [me@dusterthefirst.com](mailto:me@dusterthefirst.com) \
 [https://dusterthefirst.com](https://dusterthefirst.com) \
 [https://github.com/dusterthefirst](https://github.com/dusterthefirst)
-
-</details>
 
 I am a High School Senior who loves to program and work on hobby electronics in
 my free time. I have recently gotten into active stabilization of model rocketry
@@ -17,10 +12,10 @@ I am an absolute fanatic for [rust], [react], [typescript], and the new
 
 ## Current Projects
 
-<sup>Last updated June 30, 2021</sup>
-
 <details>
  <summary><b>Expand/Collapse</b></summary>
+
+<sup>Last updated June 30, 2021</sup>
 
 - [annoy] was a small hobby project to create a little annoying toy that my S/O
   could control remotely and get my attention when I get sucked into a project.
@@ -77,10 +72,10 @@ I am an absolute fanatic for [rust], [react], [typescript], and the new
 
 ## Notable Previous Projects
 
-<sup>Last updated June 30, 2021</sup>
-
 <details>
  <summary><b>Expand/Collapse</b></summary>
+
+<sup>Last updated June 30, 2021</sup>
 
 - [calc-ab-senior-project] was an animation created for my AP Calculus AB class
   senior year of high school. The animation describes, visually, the connection
