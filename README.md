@@ -1,17 +1,5 @@
 # Zachary Kohnen
 
-I am a High School Senior who loves to program and work on hobby electronics in
-my free time. I have recently gotten into active stabilization of model rocketry
-and keep a (somewhat up to date) devlog on my website [rocketry.dusterthefirst.com][rocketry].
-I am an absolute fanatic for [rust], [react], [typescript], and the new
-[Raspberry PI Pico][pico].
-
-[rocketry]: https://rocketry.dusterthefirst.com
-[rust]: https://www.rust-lang.org/
-[react]: https://reactjs.org/
-[typescript]: https://www.typescriptlang.org/
-[pico]: https://www.raspberrypi.org/products/raspberry-pi-pico/
-
 <details open>
   <summary><b>Contact</b></summary>
 
@@ -21,13 +9,17 @@ I am an absolute fanatic for [rust], [react], [typescript], and the new
 
 </details>
 
-<hr>
+I am a High School Senior who loves to program and work on hobby electronics in
+my free time. I have recently gotten into active stabilization of model rocketry
+and keep a (somewhat up to date) devlog on my website [rocketry.dusterthefirst.com][rocketry].
+I am an absolute fanatic for [rust], [react], [typescript], and the new
+[Raspberry PI Pico][pico].
 
 ## Current Projects
 
-<sup>Last updated Oct 13, 2020</sup>
+<sup>Last updated June 30, 2021</sup>
 
-<details open>
+<details>
  <summary><b>Expand/Collapse</b></summary>
 
 - [annoy] was a small hobby project to create a little annoying toy that my S/O
@@ -47,25 +39,54 @@ I am an absolute fanatic for [rust], [react], [typescript], and the new
   of the functions as a C ABI so that it can be lined into rust.
 
 - [rocketry] is an ongoing learning project of creating and flying a thrust vector
-  controlled rocket. I try to keep an ongoing devlog but the source code, for now,
-  is all private.
+  controlled rocket. I try to keep an [ongoing devlog][rocketry-website] but keep
+  no promises. This project has been superseded by the pico-pilot project.
+
+- [preflight] is an attempt at end to end testing of flight software with as little
+  setup as needed. It aims to be able to run SITL (Software In The Loop) simulations
+  interfacing with firmware directly with the ease of running unit tests. In its
+  current state, it would not make sense to, but the system may grow to be able
+  to run HITL (Hardware In The Loop) simulations. This is built around the Rust
+  macro system.
+
+- [pico-pilot] is my most recent rocketry project using the raspberry pi pico as
+  the main controller for rocketry avionics. This project consists of several parts.
+  pico-pilot housing the firmware and any libraries used.
+
+  - [pico-avionics] houses the kicad and other mechanical designs that describe
+    the physical form of the avionics.
+  - [pico-mct] Houses the mission control software that interfaces with the pico-pilot
+    firmware to relay live telemetry data and to send commands to the flight control
+    software.
+
+- [kicad-library] is a conglomeration of all custom kicad footprints, 3d models,
+  and libraries that I was unable to find existing versions of. This library is
+  layed out in a way that others can use it, but is very specific to my projects
+  and use cases.
+
+  - [RP_Silicon_KiCad] Is a fork of someone's copy of the official Raspberry Pi
+    Pico and RP2040 kicad libraries that I have expanded on with 3d models and
+    other fixes and improvements.
+
+- [vote] is a tool used to authenticate discord users in polls to prevent and
+  detect vote manipulation. Yes, this is not super serious or super important
+  but it makes polls with middle school children much easier since they
+  can not manipulate it for fun.
 
 </details>
 
-[annoy]: https://github.com/DusterTheFirst/annoy
-[sd]: https://github.com/DusterTheFirst/sd
-[teensyduino-rs]: https://github.com/DusterTheFirst/teensyduino-rs
-[arduinoteensy-better-ffi]: https://github.com/DusterTheFirst/framework-arduinoteensy-better-ffi
-[arduinoteensy]: https://docs.platformio.org/en/latest/frameworks/arduino.html
-
-<hr>
-
 ## Notable Previous Projects
 
-<sup>Last updated Oct 13, 2020</sup>
+<sup>Last updated June 30, 2021</sup>
 
-<details open>
+<details>
  <summary><b>Expand/Collapse</b></summary>
+
+- [calc-ab-senior-project] was an animation created for my AP Calculus AB class
+  senior year of high school. The animation describes, visually, the connection
+  between derivatives and the secant lines of a curve. This animation was created
+  with [manim], a tool created by [Grant Sanderson (3Blue1Brown)][3blue1brown]
+  like to programmatically generate the animations seen in his videos.
 
 - [WHS Helper App][whsha] was my first big user facing project. An IOS/Android
   app to help students manage their confusing schedule in my school. This app was
@@ -156,27 +177,6 @@ I am an absolute fanatic for [rust], [react], [typescript], and the new
 
 </details>
 
-[whsha]: https://github.com/whsha
-[sxfs]: https://github.com/DusterTheFirst/sxfs
-[stfu]: https://github.com/DusterTheFirst/stfu
-[bicbacboe]: https://github.com/TheDustyard/bicbacboe-1.0
-[bicbacboe-2]: https://github.com/TheDustyard/bicbacboe
-[beepus]: https://github.com/TheDustyard/beepus
-[whshelpbot]: https://github.com/TheDustyard/WHS-Help-Bot
-[robbiebotten]: https://github.com/TheDustyard/RobbieBotten
-[loginwithdiscord]: https://github.com/TheDustyard/Login-With-Discord
-[storageplus]: https://github.com/TheDustyard/StoragePlus
-[mechan.js]: https://github.com/TheDustyard/mechan.js
-[mechan.js.org]: https://mechan.js.org/docs
-[guishopminus]: https://github.com/whsmc/GUIShopMinus
-[lemmiejustyeet]: https://github.com/lemmiejustyeet
-[reacttypedoc]: https://github.com/reacttypedoc
-[byob]: https://github.com/TheDustyard/BYOB
-[mgmt]: https://github.com/DusterTheFirst/MGMT
-[mcproxy]: https://github.com/DusterTheFirst/mcproxy
-
-<hr>
-
 ## Abandoned Projects
 
 All of my old/abandoned projects can be found under the organization [@TheDustyard]
@@ -185,4 +185,43 @@ is purely to unclutter my account from old and abandoned projects, that have not
 been touched for a while.
 
 [@thedustyard]: https://github.com/TheDustyard
+[3blue1brown]: https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw
+[annoy]: https://github.com/DusterTheFirst/annoy
+[arduinoteensy-better-ffi]: https://github.com/DusterTheFirst/framework-arduinoteensy-better-ffi
+[arduinoteensy]: https://docs.platformio.org/en/latest/frameworks/arduino.html
+[beepus]: https://github.com/TheDustyard/beepus
+[bicbacboe-2]: https://github.com/TheDustyard/bicbacboe
+[bicbacboe]: https://github.com/TheDustyard/bicbacboe-1.0
+[byob]: https://github.com/TheDustyard/BYOB
+[calc-ab-senior-project]: https://github.com/DusterTheFirst/calc-ab-senior-project
 [dustyard]: https://dustyard.dusterthefirst.com/
+[guishopminus]: https://github.com/whsmc/GUIShopMinus
+[kicad-library]: https://github.com/DusterTheFirst/kicad-library
+[lemmiejustyeet]: https://github.com/lemmiejustyeet
+[loginwithdiscord]: https://github.com/TheDustyard/Login-With-Discord
+[manim]: https://github.com/ManimCommunity/manim
+[mcproxy]: https://github.com/DusterTheFirst/mcproxy
+[mechan.js.org]: https://mechan.js.org/docs
+[mechan.js]: https://github.com/TheDustyard/mechan.js
+[mgmt]: https://github.com/DusterTheFirst/MGMT
+[pico-avionics]: https://github.com/DusterTheFirst/pico-avionics
+[pico-mct]: https://github.com/DusterTheFirst/pico-mct
+[pico-pilot]: https://github.com/DusterTheFirst/pico-pilot
+[pico]: https://www.raspberrypi.org/products/raspberry-pi-pico/
+[preflight]: https://github.com/DusterTheFirst/preflight
+[react]: https://reactjs.org/
+[reacttypedoc]: https://github.com/reacttypedoc
+[robbiebotten]: https://github.com/TheDustyard/RobbieBotten
+[rocketry-website]: https://rocketry.dusterthefirst.com
+[rocketry]: https://github.com/DusterTheFirst/rocketry
+[rp_silicon_kicad]: https://github.com/DusterTheFirst/RP_Silicon_KiCad
+[rust]: https://www.rust-lang.org/
+[sd]: https://github.com/DusterTheFirst/sd
+[stfu]: https://github.com/DusterTheFirst/stfu
+[storageplus]: https://github.com/TheDustyard/StoragePlus
+[sxfs]: https://github.com/DusterTheFirst/sxfs
+[teensyduino-rs]: https://github.com/DusterTheFirst/teensyduino-rs
+[typescript]: https://www.typescriptlang.org/
+[vote]: https://github.com/DusterTheFirst/vote
+[whsha]: https://github.com/whsha
+[whshelpbot]: https://github.com/TheDustyard/WHS-Help-Bot
