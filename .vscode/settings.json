@@ -23,5 +23,6 @@
         "sxfs",
         "typedoc",
         "webpanel"
-    ]
+    ],
+    "latex-workshop.latex.outDir": "tex"
 }
