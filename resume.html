@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+Hello :D
+
+{% for section_schools in site.data.resume.education %}
+{% assign section = section_schools[0] %}
+{% assign schools = section_schools[1] %}
+<h1>{{ section }}</h1>
+<ol>
+    {% for school in schools %}
+    <li>
+        <div>{{school.name}}</div>
+        <div>{{school.address}}</div>
+        <div>
+            {{school.start}}
+            &mdash;
+            {{school.end | default: "Present"}}
+        </div>
+    </li>
+    {% endfor %}
+</ol>
+{% endfor %}

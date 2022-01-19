@@ -1,0 +1,35 @@
+name: Zachary Kohnen
+title: Electrical Engineering Student
+
+education:
+  "Primary Education":
+    - name: Aspen Creek K-8
+      address: "TODO:"
+      start: 2007
+      end: Oct 2011
+    - name: L. G. Norse School
+      address: "TODO:"
+      start: Oct 2011
+      end: 2012
+    - name: Henri A Yelle Elementary School
+      address: "TODO:"
+      start: 2012
+      end: 2014
+  "Lower Secondary Education":
+    - name: Norton Middle School
+      address: "TODO:"
+      start: 2014
+      end: Oct 2015
+    - name: Wellesley Middle School
+      address: "TODO:"
+      start: Oct 2015
+      end: 2017
+  "Secondary Education":
+    - name: Wellesley High School
+      address: "TODO:"
+      start: 2017
+      end: 2021
+  "Higher Education":
+    - name: Eindhoven University of Technology
+      address: "TODO:"
+      start: 2021

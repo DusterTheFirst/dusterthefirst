@@ -1,10 +1,4 @@
 {
-    "markdownlint.config": {
-        // Allow inline HTML for details dropdown
-        "no-inline-html": false,
-        // Enable line length lint
-        "line-length": true
-    },
     "cSpell.words": [
         "Beepus",
         "Botten",
@@ -23,6 +17,5 @@
         "sxfs",
         "typedoc",
         "webpanel"
-    ],
-    "latex-workshop.latex.outDir": "tex"
+    ]
 }
