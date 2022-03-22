@@ -6,7 +6,7 @@
 
 I am a College Student @ TU/e who loves to program and work on hobby electronics in
 my free time. I have recently gotten into active stabilization of model rocketry
-and keep a (somewhat up to date) devlog on my website [rocketry.dusterthefirst.com][rocketry].
+and keep a (somewhat up to date) devlog on my website [rocketry.dusterthefirst.com][rocketry-website].
 I am an absolute fanatic for [rust], [react], [typescript], and the new
 [Raspberry PI Pico][pico].
 
