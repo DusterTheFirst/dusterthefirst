@@ -1,12 +1,12 @@
-<center>
+<h1 align="center">Zachary Kohnen</h1>
 
-# Zachary Kohnen
+<div align="center">
 
 [me@dusterthefirst.com](mailto:me@dusterthefirst.com) \
 [https://dusterthefirst.com](https://dusterthefirst.com) \
 [https://github.com/dusterthefirst](https://github.com/dusterthefirst)
 
-</center>
+</div>
 
 Electrical Engineering bachelor student and international ambassador for [TU/e][tue].
 
