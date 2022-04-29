@@ -4,7 +4,6 @@
 
 [me@dusterthefirst.com](mailto:me@dusterthefirst.com) \
 <https://dusterthefirst.com> \
-<https://gh.dusterthefirst.com> \
 <https://github.com/dusterthefirst>
 
 </div>
