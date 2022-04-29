@@ -3,8 +3,9 @@
 <div align="center">
 
 [me@dusterthefirst.com](mailto:me@dusterthefirst.com) \
-[https://dusterthefirst.com](https://dusterthefirst.com) \
-[https://github.com/dusterthefirst](https://github.com/dusterthefirst)
+<https://dusterthefirst.com> \
+<https://gh.dusterthefirst.com> \
+<https://github.com/dusterthefirst>
 
 </div>
 
