@@ -4,7 +4,8 @@
 
 [me@dusterthefirst.com](mailto:me@dusterthefirst.com) \
 <https://dusterthefirst.com> \
-<https://github.com/dusterthefirst>
+<https://github.com/dusterthefirst> \
+<a rel="me" href="https://mastodon.dusterthefirst.com/@dusterthefirst">@dusterthefirst@dusterthefirst.com</a>
 
 </div>
 
