@@ -5,7 +5,7 @@
 [me@dusterthefirst.com](mailto:me@dusterthefirst.com) \
 <https://dusterthefirst.com> \
 <https://github.com/dusterthefirst> \
-<a rel="me" href="https://hachyderm.io/@dusterthefirst">&#64;dusterthefirst&#64;hachyderm.io</a>
+<a rel="me" href="https://hachyderm.io/@dusterthefirst">&#64;dusterthefirst</a> on [hachyderm.io](https://hachyderm.io)
 
 </div>
 
